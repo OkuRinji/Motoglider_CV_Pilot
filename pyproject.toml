@@ -4,4 +4,13 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "gymnasium>=1.4.0",
+    "mujoco>=3.16.0",
+    "numpy>=2.5.4",
+    "pip>=26.2.1",
+    "sb3-contrib>=2.9.0",
+    "stable-baselines3[extra]>=2.9.0",
+    "tensorboard>=2.21.0",
+    "uv>=0.13.1",
+]
