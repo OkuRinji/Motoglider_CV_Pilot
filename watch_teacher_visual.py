@@ -89,7 +89,7 @@ def choose_setpoints(policy, sim, s):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--model", type=str, default="./logs/teacher_curriculum_v6/best_model/best_model",
+    ap.add_argument("--model", type=str, default="./logs/teacher_curriculum_v8/best_model/best_model",
                     help="Путь к обученной модели")
     ap.add_argument("--wind", nargs=2, type=float, default=[0.0, 0.0])
     ap.add_argument("--speed", type=float, default=1.0)
